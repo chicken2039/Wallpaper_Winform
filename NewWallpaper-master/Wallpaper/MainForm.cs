@@ -221,5 +221,10 @@ namespace Wallpaper
         {
             SettingManager.Dispose();
         }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }

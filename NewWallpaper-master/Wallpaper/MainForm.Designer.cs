@@ -211,6 +211,10 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "File Path";
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btnGIF);

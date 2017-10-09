@@ -42,8 +42,10 @@ namespace Wallpaper
         public string Text_Second { get => text_Second; set => text_Second = value; }
         //################################################//
         private bool m_isFixed = false;
+        /*
         public bool IsFixed
         { get { return m_isFixed; } }
+        */
         //################################################//
         public WinApi.MONITORINFO OwnerScreen
         {

@@ -24,8 +24,10 @@ namespace Wallpaper
         public string Videopath { get { return m_videopath; } set { m_videopath = value; } }
         //################################################//
         private bool m_isFixed = false;
-        public bool IsFixed
+        /*
+        public bool IsFixed 
         { get { return m_isFixed; } }
+        */
         //################################################//
         private int m_latestVolume = 100;
         public int Volume
